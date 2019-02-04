@@ -1,0 +1,174 @@
+/* INDEX PAGE FORMATTING */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #031634;
+    color: #E8DDCB;
+}
+
+
+.grid_outer {
+    width: 1200px;
+    margin: auto;
+}
+
+.grid_outer .game_grid_widget {
+    padding: 30px 20px 0 40px;
+}
+
+.game_grid_widget {
+    font-size: 16px;
+}
+
+.browse_game_grid .game_cell {
+    width: 285px;
+    padding: 30px;
+}
+
+.game_grid_widget .game_cell {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 20px 0 0;
+}
+
+.bitsy-img {
+    border-color: #E8DDCB;
+    border-width: 5px;
+    border-style: solid;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin: 5px 0 5px 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+a {
+    color: #CDB380;
+    text-decoration: none;
+}
+
+/* CREDITS FORMATTING */
+.template-by p {
+    text-align: center;
+    font-size: x-small;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* UNIVERSAL GAME FORMATTING */
+
+.html_embed_widget .game_frame iframe {
+    height: 0;
+    width: 0;
+    border: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background: #321946;
+    margin: 0 auto;
+    position: relative;
+    background-position: 50% 50%;
+}
+
+.center {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#game {
+    background: black;
+    width: 100vw;
+    max-width: 100vh;
+    margin: auto;
+    display: block;
+}
+
+.credits {
+    width: 560px;
+    margin: auto;
+}
+
+/* NIGHTWALK FORMAT */
+#nightwalk {
+    background-color: #1a012e;
+    color: #f4cffe;
+}
+
+#nightwalk a {
+    color: #f4cffe;
+}
+
+/* ROADTRIP FORMAT */
+#roadtrip {
+    background-color: #365c56;
+    color: #ffffff;
+}
+
+#roadtrip a {
+    color: #ffffff;
+}
+
+/* HOME FORMAT */
+#home {
+    background-color: #69b560;
+    color: #222222;
+}
+
+#home a {
+    color: #ffffff;
+}
+
+/* LIMBO FORMAT */
+#limbo {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+#limbo a {
+    color: #fa5c5c;
+}
+
+/* SUMMIT FORMAT */
+#summit {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#summit a {
+    color: #feac01;
+}
+
+/* SKY FORMAT */
+#sky {
+    background-color: #b6edf1;
+    color: #2c603d;
+}
+
+#sky a {
+    color: #fa5c5c;
+}
